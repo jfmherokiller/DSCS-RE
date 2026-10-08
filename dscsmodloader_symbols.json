@@ -1,0 +1,437 @@
+{
+ "funcs": [
+  {
+   "addr": "0x140607140",
+   "name": "sq_open"
+  },
+  {
+   "addr": "0x140606ff0",
+   "name": "sq_newthread"
+  },
+  {
+   "addr": "0x140607ef0",
+   "name": "sq_seterrorhandler"
+  },
+  {
+   "addr": "0x1406068c0",
+   "name": "sq_getprintfunc"
+  },
+  {
+   "addr": "0x140608510",
+   "name": "sq_wakeupvm"
+  },
+  {
+   "addr": "0x140606c00",
+   "name": "sq_getvmstate"
+  },
+  {
+   "addr": "0x140605f40",
+   "name": "sq_compile"
+  },
+  {
+   "addr": "0x140606060",
+   "name": "sq_compilebuffer"
+  },
+  {
+   "addr": "0x140606190",
+   "name": "sq_enabledebuginfo"
+  },
+  {
+   "addr": "0x140607ce0",
+   "name": "sq_setcompilererrorhandler"
+  },
+  {
+   "addr": "0x140607240",
+   "name": "sq_push"
+  },
+  {
+   "addr": "0x140616990",
+   "name": "sq_pop"
+  },
+  {
+   "addr": "0x140616930",
+   "name": "sq_poptop"
+  },
+  {
+   "addr": "0x140616b40",
+   "name": "sq_remove"
+  },
+  {
+   "addr": "0x140606a50",
+   "name": "sq_gettop"
+  },
+  {
+   "addr": "0x140608330",
+   "name": "sq_settop"
+  },
+  {
+   "addr": "0x140606cd0",
+   "name": "sq_move"
+  },
+  {
+   "addr": "0x1406070c0",
+   "name": "sq_newuserdata"
+  },
+  {
+   "addr": "0x140606f50",
+   "name": "sq_newtable"
+  },
+  {
+   "addr": "0x140606d20",
+   "name": "sq_newclosure"
+  },
+  {
+   "addr": "0x1406080d0",
+   "name": "sq_setparamscheck"
+  },
+  {
+   "addr": "0x140605b20",
+   "name": "sq_bindenv"
+  },
+  {
+   "addr": "0x140607410",
+   "name": "sq_pushstring"
+  },
+  {
+   "addr": "0x1406072e0",
+   "name": "sq_pushfloat"
+  },
+  {
+   "addr": "0x140607330",
+   "name": "sq_pushinteger"
+  },
+  {
+   "addr": "0x140607280",
+   "name": "sq_pushbool"
+  },
+  {
+   "addr": "0x140607380",
+   "name": "sq_pushnull"
+  },
+  {
+   "addr": "0x140606a60",
+   "name": "sq_gettype"
+  },
+  {
+   "addr": "0x1406068e0",
+   "name": "sq_getsize"
+  },
+  {
+   "addr": "0x140608480",
+   "name": "sq_tostring"
+  },
+  {
+   "addr": "0x140608430",
+   "name": "sq_tobool"
+  },
+  {
+   "addr": "0x1406069a0",
+   "name": "sq_getstring"
+  },
+  {
+   "addr": "0x1406066f0",
+   "name": "sq_getinteger"
+  },
+  {
+   "addr": "0x1406065c0",
+   "name": "sq_getfloat"
+  },
+  {
+   "addr": "0x1406063c0",
+   "name": "sq_getbool"
+  },
+  {
+   "addr": "0x140606b50",
+   "name": "sq_getuserpointer"
+  },
+  {
+   "addr": "0x140606a90",
+   "name": "sq_getuserdata"
+  },
+  {
+   "addr": "0x140608220",
+   "name": "sq_setreleasehook"
+  },
+  {
+   "addr": "0x1406068d0",
+   "name": "sq_getscratchpad"
+  },
+  {
+   "addr": "0x140607fe0",
+   "name": "sq_setnativeclosurename"
+  },
+  {
+   "addr": "0x140607f80",
+   "name": "sq_setinstanceup"
+  },
+  {
+   "addr": "0x140606630",
+   "name": "sq_getinstanceup"
+  },
+  {
+   "addr": "0x1406060a0",
+   "name": "sq_createinstance"
+  },
+  {
+   "addr": "0x140607b10",
+   "name": "sq_setattributes"
+  },
+  {
+   "addr": "0x140606270",
+   "name": "sq_getattributes"
+  },
+  {
+   "addr": "0x140606410",
+   "name": "sq_getclass"
+  },
+  {
+   "addr": "0x140608730",
+   "name": "sq_weakref"
+  },
+  {
+   "addr": "0x140607400",
+   "name": "sq_pushroottable"
+  },
+  {
+   "addr": "0x1406073f0",
+   "name": "sq_pushregistrytable"
+  },
+  {
+   "addr": "0x1406082a0",
+   "name": "sq_setroottable"
+  },
+  {
+   "addr": "0x140607cf0",
+   "name": "sq_setconsttable"
+  },
+  {
+   "addr": "0x140606e60",
+   "name": "sq_newslot"
+  },
+  {
+   "addr": "0x1406061c0",
+   "name": "sq_get"
+  },
+  {
+   "addr": "0x140607620",
+   "name": "sq_rawget"
+  },
+  {
+   "addr": "0x140620b80",
+   "name": "sq_rawset"
+  },
+  {
+   "addr": "0x140607490",
+   "name": "sq_rawdeleteslot"
+  },
+  {
+   "addr": "0x140605710",
+   "name": "sq_arrayappend"
+  },
+  {
+   "addr": "0x140605800",
+   "name": "sq_arraypop"
+  },
+  {
+   "addr": "0x140607e00",
+   "name": "sq_setdelegate"
+  },
+  {
+   "addr": "0x140606500",
+   "name": "sq_getdelegate"
+  },
+  {
+   "addr": "0x140606c20",
+   "name": "sq_getweakrefval"
+  },
+  {
+   "addr": "0x140605e20",
+   "name": "sq_clear"
+  },
+  {
+   "addr": "0x140605d30",
+   "name": "sq_call"
+  },
+  {
+   "addr": "0x140606760",
+   "name": "sq_getlocal"
+  },
+  {
+   "addr": "0x1406083a0",
+   "name": "sq_throwerror"
+  },
+  {
+   "addr": "0x140606750",
+   "name": "sq_getlasterror"
+  },
+  {
+   "addr": "0x140606960",
+   "name": "sq_getstackobj"
+  },
+  {
+   "addr": "0x140607390",
+   "name": "sq_pushobject"
+  },
+  {
+   "addr": "0x1406056f0",
+   "name": "sq_addref"
+  },
+  {
+   "addr": "0x140607a70",
+   "name": "sq_release"
+  },
+  {
+   "addr": "0x140607b00",
+   "name": "sq_resetobject"
+  },
+  {
+   "addr": "0x140605f30",
+   "name": "sq_collectgarbage"
+  },
+  {
+   "addr": "0x140607990",
+   "name": "sq_readclosure"
+  },
+  {
+   "addr": "0x140608e70",
+   "name": "sq_malloc"
+  },
+  {
+   "addr": "0x140608e80",
+   "name": "sq_realloc"
+  },
+  {
+   "addr": "0x140608e60",
+   "name": "sq_free"
+  },
+  {
+   "addr": "0x140608d60",
+   "name": "sq_stackinfos"
+  },
+  {
+   "addr": "0x140607d70",
+   "name": "sq_setdebughook"
+  },
+  {
+   "addr": "0x1401a4740",
+   "name": "DSCS_GetSeenData"
+  },
+  {
+   "addr": "0x1401a70d0",
+   "name": "DSCS_GetGameContext"
+  },
+  {
+   "addr": "0x1402ccb20",
+   "name": "DSCS_GetDigisterMap"
+  },
+  {
+   "addr": "0x1402bb6d0",
+   "name": "DSCS_GetSoundStruct"
+  },
+  {
+   "addr": "0x14019aa60",
+   "name": "DSCS_SetScanData"
+  },
+  {
+   "addr": "0x1405030d0",
+   "name": "Timer_GetTimeDelta"
+  },
+  {
+   "addr": "0x14051c8c0",
+   "name": "DSCS_UseTargetDelta"
+  },
+  {
+   "addr": "0x14051c8b0",
+   "name": "DSCS_GetTargetFPS"
+  },
+  {
+   "addr": "0x1402b9f00",
+   "name": "Save_GetSaveDirPath"
+  },
+  {
+   "addr": "0x1402ba570",
+   "name": "Save_CreateSaveDir"
+  },
+  {
+   "addr": "0x1402cfcf0",
+   "name": "Save_EncryptSaveFile"
+  },
+  {
+   "addr": "0x1402cff70",
+   "name": "Save_DecryptSaveFile"
+  },
+  {
+   "addr": "0x1404f8f60",
+   "name": "DSCS_GetResourceDirCStr"
+  },
+  {
+   "addr": "0x1405f70f0",
+   "name": "DSCS_GetResourceDir"
+  },
+  {
+   "addr": "0x1404fd150",
+   "name": "ResourceManager_AddArchiveOverride"
+  },
+  {
+   "addr": "0x1405f6fa0",
+   "name": "MVGL_vfs_DeleteFile"
+  },
+  {
+   "addr": "0x1405f6e70",
+   "name": "MVGL_vfs_CreateFile"
+  },
+  {
+   "addr": "0x1405f6d30",
+   "name": "MVGL_vfs_WriteFile"
+  },
+  {
+   "addr": "0x1405f6c10",
+   "name": "MVGL_vfs_ReadFile"
+  },
+  {
+   "addr": "0x140500ec0",
+   "name": "DSCS_BaseUpdate_Inner"
+  },
+  {
+   "addr": "0x14052b6d0",
+   "name": "DSCS_BaseUpdate"
+  },
+  {
+   "addr": "0x14027b150",
+   "name": "DSCS_SetMaxFPS"
+  },
+  {
+   "addr": "0x14057bff0",
+   "name": "Input_GetControllerType"
+  },
+  {
+   "addr": "0x140288990",
+   "name": "Save_CreateSave"
+  },
+  {
+   "addr": "0x1402bab20",
+   "name": "Save_WriteSaveFile"
+  },
+  {
+   "addr": "0x140289bb0",
+   "name": "Save_LoadSave"
+  },
+  {
+   "addr": "0x1402bae90",
+   "name": "Save_ReadSaveFile"
+  }
+ ],
+ "data": {
+  "0x140f208a0": "g_AppContext",
+  "0x140c09188": "g_ResourceManagerContext",
+  "0x140f20758": "g_pGameSaveData",
+  "0x140c3aa58": "g_FrameDelta",
+  "0x140c3aa5c": "g_FrameDeltaHalf",
+  "0x140bf5f4c": "g_MaxFPS",
+  "0x140f20770": "g_ArchiveCount",
+  "0x140f219c0": "g_ArchiveList",
+  "0x140f229c0": "g_ArchiveTable",
+  "0x140f20656": "g_ArchiveIsInit",
+  "0x140c365a8": "g_hDC"
+ }
+}
