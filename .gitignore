@@ -7,3 +7,4 @@ external/
 *.id2
 *.nam
 *.til
+.cpm-cache/

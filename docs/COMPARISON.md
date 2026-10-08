@@ -57,9 +57,12 @@ anchors for matching code between the two exes (find the class vtable in each, c
    `modelName.startsWith("pc")` check (DSCSModLoader README patch at RVA `0x366413`). The DSTS swap
    design (transient change during model resolution, data rows for each Digimon) should map onto it:
    find DSCS's player model resolver via the shared `CPlayerData`/`ADigisterModel` classes.
-2. **Signature-based hooks.** DSCSModLoader uses fixed RVAs. DSCS is no longer patched so that's
-   workable, but AOB signatures (as in the DSTS mods) would make plugins robust to the
-   Steam-vs-other-store build differences.
+2. **Signature-based hooks — DONE** on the fork `jfmherokiller/DSCSModLoader`, branch
+   `feature/signature-scanning`. All 127 addresses (Squirrel API, game functions, globals, IAT slots,
+   patch sites) are resolved by AOB at startup. On a build it doesn't recognise, the loader disables
+   itself and leaves the game untouched. Patch files gain `sig:<pattern>[+off]=<bytes>`. Generator:
+   `tools/gen_signatures.py`; offline check: `tests/sigtest.cpp` (127/127 on the Steam build). This
+   also fixed upstream's `sq_setparamscheck` RVA, which pointed mid-instruction (`0x6080D0` → `0x6080B0`).
 3. **Animation retargeting pipeline.** `dsts_retarget.py` plus the Blender toolchain should work for DSCS
    rigs with an exporter swap (same format family) — e.g. human field animations for Digimon in DSCS.
 
